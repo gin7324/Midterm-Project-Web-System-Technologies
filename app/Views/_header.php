@@ -27,6 +27,15 @@
         table { width: 100%; border-collapse: collapse; margin-top: 1.5rem; }
         th, td { border-bottom: 1px solid var(--line); padding: .9rem .75rem; text-align: left; }
         th { color: var(--muted); font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; }
+        .form-panel { max-width: 680px; }
+        label { display: block; color: var(--muted); font-size: .9rem; font-weight: 700; margin-top: 1rem; }
+        input, textarea, select { border: 1px solid var(--line); border-radius: .35rem; display: block; font: inherit; margin-top: .35rem; padding: .7rem; width: 100%; }
+        .error { color: var(--accent); font-size: .9rem; margin: .35rem 0 0; }
+        .notice { background: #ecfdf3; border: 1px solid #abefc6; border-radius: .35rem; color: #067647; padding: .75rem 1rem; }
+        .row-actions { display: flex; flex-wrap: wrap; gap: .75rem; align-items: center; }
+        .row-actions form { margin: 0; }
+        .link-button { background: none; border: 0; color: var(--accent); cursor: pointer; font: inherit; padding: 0; text-decoration: underline; }
+        .thumbnail { border-radius: .25rem; height: 52px; object-fit: cover; width: 52px; }
         footer { color: var(--muted); font-size: .9rem; padding: 0 0 2rem; text-align: center; }
         @media (max-width: 620px) { .nav { align-items: flex-start; flex-direction: column; padding: 1rem 0; } nav { width: 100%; } th, td { padding: .7rem .4rem; } }
     </style>
@@ -38,6 +47,7 @@
         <nav aria-label="Main navigation">
             <a href="<?= url_to('home') ?>">Home</a>
             <a href="<?= url_to('about') ?>">About</a>
+            <a href="<?= url_to('products') ?>">Products</a>
             <a href="<?= url_to('customers') ?>">Customers</a>
             <a href="<?= url_to('users') ?>">Users</a>
         </nav>
