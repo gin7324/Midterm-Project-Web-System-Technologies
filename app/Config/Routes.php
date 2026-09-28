@@ -18,3 +18,4 @@ $routes->get('customers/(:num)/edit', 'Customers::edit/$1', ['as' => 'customers.
 $routes->post('customers/(:num)', 'Customers::update/$1', ['as' => 'customers.update']);
 $routes->post('customers/(:num)/delete', 'Customers::delete/$1', ['as' => 'customers.delete']);
 $routes->get('users', 'Users::index', ['as' => 'users']);
+$routes->get('sales', 'Sales::index', ['as' => 'sales']);

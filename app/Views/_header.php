@@ -50,6 +50,7 @@
             <a href="<?= url_to('products') ?>">Products</a>
             <a href="<?= url_to('customers') ?>">Customers</a>
             <a href="<?= url_to('users') ?>">Users</a>
+            <a href="<?= url_to('sales') ?>">Sales history</a>
         </nav>
     </div>
 </header>
