@@ -160,7 +160,7 @@ table {
 th {
     text-align: left;
     border-bottom: 1px solid #e7e7e7;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.75rem;
 }
 td {
     padding: 0.2rem 0.5rem 0.2rem 0;
@@ -191,4 +191,39 @@ td pre {
 }
 .args {
     display: none;
+}
+/* User Accounts */
+.user-avatar {
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.user-avatar-placeholder {
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--light-bg-color);
+    color: var(--main-text-color);
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.user-actions form {
+    margin: 0;
+}
+
+.user-actions .button {
+    margin: 0;
 }
