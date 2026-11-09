@@ -1,5 +1,11 @@
 # CodeIgniter 4 Application Starter
 
+
+Project Hosted at: https://midtermproj.free.je/index.php
+Sample Acc:
+Username: admin
+Password: admin123
+
 ## What is CodeIgniter?
 
 CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
